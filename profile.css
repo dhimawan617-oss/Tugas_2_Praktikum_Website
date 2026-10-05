@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5EFE3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-container{
+    background-color: #8B9A6E;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-h1{
+    color: whitesmoke;
+}
+
+.btn-back{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-back:hover{
+    background-color: #3E0F8D;
+    transform: scale(1.05);
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.profile-card{
+    background-color: whitesmoke;
+    padding: 30px 30px;
+    margin: 20px auto;
+    max-width: 650px;
+    border-radius: 20px;
+}
+
+.profile-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.profile-card h1{
+    padding: 5px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.pengenalan-card{
+    margin: 0 auto;
+    padding: 10px 5px;
+    text-align: justify;
+}
+
+.pengenalan-card p{
+    padding: 5px;
+}
+
+.job{
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.experience-item{
+    text-align: left;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    border-left: 3px solid #8B9A6E;
+    padding-left: 15px;
+}
+
+.last-item{
+   padding: 10px;
+}
+
+.judul-sosmed{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul-sosmed i{
+    margin-right: 10px;
+}
+
+.connect-sosmed{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.connect-sosmed a{
+    color: #8B9A6E;
+    font-size: 30px;
+}
